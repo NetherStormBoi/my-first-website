@@ -1,0 +1,31 @@
+/* target the entire page body */
+body {
+    background-color: #f4f4f9; /* a nice light grey */
+    font-family: Arial, sans-serif; /* get rid of the ugly default font */
+    color: #333; /* dark grey text is easier to read than black */
+}
+
+h1 {
+    color: #2c3e50; /* Dark Blue */
+    text-align: center; /* Move it to the middle */
+    font-size: 36px;
+}
+
+img {
+    display: block; /* allows us to move it */
+    margin: 0 auto; /* centers the image */
+    border-radius: 50%; /* makes it a circle */
+    border: 5px solid #2c3e50; /* adds a border matching the header */
+}
+
+a {
+    color: #e74c3c; /* Red color */
+    text-decoration: none; /* removes the underline */
+    font-weight: bold; 
+}
+
+/* change color when you hover over the link with mouse */
+a:hover {
+    color: #c0392b;
+    text-decoration: underline;
+}

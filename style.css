@@ -1,3 +1,10 @@
+.container {
+    background-color: white;
+    width: 600px; /*force it to be the width of the paper */
+    margin: 0 auto; /* top/bottom=0, left/right=auto (centers it!) */
+    padding: 40px; /*adds space inside the white box */
+    border: 1px solid #ddd; /* a subtle grey border */
+}
 /* target the entire page body */
 body {
     background-color: #f4f4f9; /* a nice light grey */
@@ -11,11 +18,30 @@ h1 {
     font-size: 36px;
 }
 
+hr {
+    border: 0; /* removes the ugly default 3D border */
+    height: 1px; /* makes it thin */
+    background-color: #eee; /*makes it a very light grey */
+    margin: 30px 0; /* add lots of space above and below it */
+}
+/*add space under the headers */
+h2 {
+    border-bottom: 2px solid #eee; /* adds a line under "education" */
+    padding-bottom: 10px; /* space between text and line */
+    margin-top: 30px; /* space above the section */
+    margin-bottom: 15px; /*space below the section*/
+}
+
+li {
+    margin-bottom: 8px; /* add space between list items > spreads out your bullet points */
+}
+
 img {
     display: block; /* allows us to move it */
     margin: 0 auto; /* centers the image */
     border-radius: 50%; /* makes it a circle */
     border: 5px solid #2c3e50; /* adds a border matching the header */
+    margin-bottom: 20px; /*add space under the image*/
 }
 
 a {
